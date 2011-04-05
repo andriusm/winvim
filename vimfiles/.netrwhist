@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='C:\andrius\servers\tomcat-6.0.26'
-let g:netrw_dirhist_2='C:/andrius/servers/tomcat-6.0.26/logs'
-let g:netrw_dirhist_3='C:\andrius\servers\tomcat-6.0.26\webapps\ROOT\WEB-INF\classes'
-let g:netrw_dirhist_4='C:/andrius/servers/tomcat-6.0.26/webapps/ROOT/WEB-INF/classes'

@@ -2,12 +2,8 @@
 
 # (c) holds no legal value ;)
 snippet c)
-	`&enc[:2] == "utf" ? "©" : "(c)"` Copyright `strftime("%Y")` ${1:`g:snips_author`}. All Rights Reserved.${2}
+	Copyright `&enc[:2] == "utf" ? "©" : "(c)"` `strftime("%Y")` ${1:`g:snips_author`}. All Rights Reserved.${2}
 snippet date
 	`strftime("%Y-%m-%d")`
-snippet ---
-	--------------------------------------------------------------------------------
-snippet lorem
-	Lorem ipsum dolor sit amet, eget convallis vitae blandit pede leo. Vivamus sit magnis nunc consectetur velit sem, maecenas erat risus vel in magna. Diam ac est non, lectus consequat, et lacinia platea felis at proin pellentesque, suscipit vel mollis. Orci pulvinar mauris, in sed ipsum, quis torquent. Nonummy nec sed nunc etiam ac. Neque ac, dictum ipsum, ipsum mauris aliquam pretium pede eu dolor, pede eget volutpat ad, sapien sit sed suscipit.
-snippet ipsum
-	Congue neque wisi vel morbi, amet montes vestibulum eu sed. Varius lorem lobortis nec tortor dui. Maecenas pede, aut elementum diam sodales id tellus maecenas, quis nostra vitae ac vel, consequat tempus, ornare pede magna et malesuada. Ipsum quam nullam tellus facilisis massa. Morbi ipsum nullam vestibulum curabitur ut, ut ultrices magna, at nunc. Nostra parturient felis ut maecenas justo, duis molestias lectus venenatis dictum sed a, nulla dui inceptos pede vitae blandit, pellentesque velit integer purus nulla senectus, neque dolor urna scelerisque in aenean. Duis eget elit, eget non in consequat. Commodo amet non malesuada, erat ad, morbi et sed pede vitae mauris a, elit sagittis ipsum vestibulum suspendisse mauris condimentum. Dolor egestas morbi aliquam mauris amet, curabitur ridiculus malesuada pulvinar sodales convallis, aliquet eget nec. Tortor vel quis eu fringilla. Pellentesque morbi viverra, elit nibh ultrices condimentum eget in. Vivamus quam semper vehicula quis orci, a neque ut.
+snippet ddate
+	`strftime("%B %d, %Y")`
